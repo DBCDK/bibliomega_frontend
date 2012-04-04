@@ -181,6 +181,130 @@ function bibliomega_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '8',
   );
+
+
+  // Exported menu link: menu-bibliotek-dk-meta-menu:http://www.dbc.dk/1
+  $menu_links['menu-bibliotek-dk-meta-menu:http://www.dbc.dk/1'] = array(
+    'menu_name' => 'menu-bibliotek-dk-meta-menu',
+    'link_path' => 'http://www.dbc.dk/1',
+    'router_path' => '',
+    'link_title' => 'Om bibliotek.dk',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Curabitur sit amet felis enim, non eleifend dui.',
+      ),
+      'langcode' => 'da',
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '0',
+  );
+  // Exported menu link: menu-bibliotek-dk-meta-menu:http://www.dbc.dk/2
+  $menu_links['menu-bibliotek-dk-meta-menu:http://www.dbc.dk/2'] = array(
+    'menu_name' => 'menu-bibliotek-dk-meta-menu',
+    'link_path' => 'http://www.dbc.dk/2',
+    'router_path' => '',
+    'link_title' => 'Presserum',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Curabitur sit amet felis enim, non eleifend dui.',
+      ),
+      'langcode' => 'da',
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '1',
+  );
+  // Exported menu link: menu-bibliotek-dk-meta-menu:http://www.dbc.dk/3
+  $menu_links['menu-bibliotek-dk-meta-menu:http://www.dbc.dk/3'] = array(
+    'menu_name' => 'menu-bibliotek-dk-meta-menu',
+    'link_path' => 'http://www.dbc.dk/3',
+    'router_path' => '',
+    'link_title' => 'Blog',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Curabitur sit amet felis enim, non eleifend dui.',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '2',
+  );
+  // Exported menu link: menu-bibliotek-dk-meta-menu:http://www.dbc.dk/4
+  $menu_links['menu-bibliotek-dk-meta-menu:http://www.dbc.dk/4'] = array(
+    'menu_name' => 'menu-bibliotek-dk-meta-menu',
+    'link_path' => 'http://www.dbc.dk/4',
+    'router_path' => '',
+    'link_title' => 'Sitemap',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Curabitur sit amet felis enim, non eleifend dui.',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '3',
+  );
+  // Exported menu link: menu-bibliotek-dk-meta-menu:http://www.dbc.dk/5
+  $menu_links['menu-bibliotek-dk-meta-menu:http://www.dbc.dk/5'] = array(
+    'menu_name' => 'menu-bibliotek-dk-meta-menu',
+    'link_path' => 'http://www.dbc.dk/5',
+    'router_path' => '',
+    'link_title' => 'Kontakt',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Curabitur sit amet felis enim, non eleifend dui.',
+      ),
+      'langcode' => 'da',
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '4',
+  );
+  // Exported menu link: menu-bibliotek-dk-meta-menu:http://www.dbc.dk/6
+  $menu_links['menu-bibliotek-dk-meta-menu:http://www.dbc.dk/6'] = array(
+    'menu_name' => 'menu-bibliotek-dk-meta-menu',
+    'link_path' => 'http://www.dbc.dk/6',
+    'router_path' => '',
+    'link_title' => 'HjÃ¦lp',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Curabitur sit amet felis enim, non eleifend dui.',
+      ),
+      'langcode' => 'da',
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '5',
+  );
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('Blog');
+  t('Hjælp');
+  t('Kontakt');
+  t('Om bibliotek.dk');
+  t('Presserum');
+  t('Sitemap');
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Alt');
@@ -192,7 +316,6 @@ function bibliomega_frontend_menu_default_menu_links() {
   t('Net');
   t('Noder');
   t('Spil');
-
 
   return $menu_links;
 }
