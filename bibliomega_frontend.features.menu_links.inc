@@ -515,6 +515,8 @@ function bibliomega_frontend_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
+  t('About');
+  t('All');
   t('Alt');
   t('Artikler');
   t('Basket');
@@ -540,8 +542,6 @@ function bibliomega_frontend_menu_default_menu_links() {
   t('Sitemap');
   t('Spil');
   t('User profile');
-  t('About');
-  t('All');
 
 
   return $menu_links;

@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * bibdk_menu_links.features.menu_custom.inc
+ * bibliomega_frontend.features.menu_custom.inc
  */
 
 /**
@@ -42,6 +42,7 @@ function bibliomega_frontend_menu_default_menu_custom() {
   t('Links for about, sitemap and other meta pages.');
   t('Links for the search pages');
   t('User profile, basket & search history');
+
 
   return $menus;
 }
