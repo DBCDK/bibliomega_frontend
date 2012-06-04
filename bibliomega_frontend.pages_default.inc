@@ -11,7 +11,6 @@ function bibliomega_frontend_default_page_manager_handlers() {
   $export = array();
 
   $handler = new stdClass;
-
   $handler->disabled = FALSE; /* Edit this to true to make a default handler disabled initially */
   $handler->api_version = 1;
   $handler->name = 'page_ding_frontpage_panel_context_bibliomega';
@@ -85,7 +84,13 @@ function bibliomega_frontend_default_page_manager_handlers() {
       'override_title' => 1,
       'override_title_text' => '',
     );
-    $pane->cache = array();
+    $pane->cache = array(
+      'method' => 'simple',
+      'settings' => array(
+        'lifetime' => '300',
+        'granularity' => 'none',
+      ),
+    );
     $pane->style = array(
       'settings' => NULL,
     );
@@ -132,6 +137,7 @@ function bibliomega_frontend_default_page_manager_handlers() {
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
+
 
   $export['page_ding_frontpage_panel_context_bibliomega'] = $handler;
 
