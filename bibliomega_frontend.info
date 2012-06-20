@@ -1,8 +1,5 @@
 core = "7.x"
-dependencies[] = "ding_event"
-dependencies[] = "ding_frontend"
 dependencies[] = "ding_frontpage"
-dependencies[] = "ding_ting_frontend"
 dependencies[] = "features"
 dependencies[] = "menu"
 dependencies[] = "page_manager"
